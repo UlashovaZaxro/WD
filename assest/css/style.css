@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+@media all and (max-width: 1000px) {
+
+    .container h1 {
+        font-size: 1.1rem;
+    }
+
+    .container p {
+        font-size: 0.8rem;
+    }
+
+    .container .btn {
+        font-size: 0.4rem;
+    }
+
+    .container input {
+        font-size: 0.6rem;
+    }
+
+    .container textarea {
+        font-size: 0.6rem;
+    }
+
+}
+
+.container header {
+    background-color: rgb(226, 226, 226);
+}
+
+.container .section-1 {
+    background-color: rgb(226, 226, 226);
+}
+
+.container .section-1 .btn {
+    background-color: #34547A;
+    color: white;
+}
+
+@media all and (max-width: 1000px) {
+    .container .section-1 .col-md-12 .row .col-md-5:nth-child(1) {
+        margin-top: -90px;
+    }
+
+    .container .section-3 .col-md-12 .row .col-md-2:nth-child(1) .row a img {
+        display: flex;
+    }
+
+    .container .section-3 .col-md-12 .row .col-md-2 .row a img {
+        display: none;
+    }
+
+    .container .section-3 {
+        height: 160px;
+    }
+}
+
+.container .section-3 {
+    background-color: #34547A;
+}
+
+.container .section-5 {
+    background-color: rgb(226, 226, 226);
+}
+
+@media all and (max-width: 1000px) {
+    .container .section-5 .col-md-12 .row {
+        margin-top: -70px;
+    }
+
+    .container .section-7 .col-md-12 .row .col-md-2:nth-child(1) a img {
+        display: flex;
+    }
+
+    .container .section-7 .col-md-12 .row .col-md-2 a img {
+        display: none;
+    }
+
+}
+
+
+.container .section-6 .col-md-12 form .col-md-3 .img-blur {
+    /* filter: blur(6px); */
+    filter: brightness(0.5) blur(4px);
+}
+
+.container .section-8 {
+    background-color: rgb(226, 226, 226);
+}
+
+.container .section-8 .col-md-12 .row .col-md-7 .row .btn {
+    background-color: #34547A;
+}
+
+@media all and (max-width: 1000px) {
+    .container .section-8 .col-md-12 .row .col-md-7 .row .col-md-6:nth-child(2) input {
+        margin-top: 10px;
+    }
+
+    .container .section-8 .col-md-12 .row .col-md-7 .row {
+        padding: 30px;
+        margin-top: -50px;
+    }
+}
+
+.container footer {
+    background-color: #34547A;
+}
+
+@media all and (max-width: 1000px) {
+
+    .container footer .col-md-12 .row .col-md-4 .row .col-md-2:nth-child(1) a img {
+        display: flex;
+    }
+
+    .container footer .col-md-12 .row .col-md-4 .row .col-md-2 a img {
+        display: none;
+    }
+
+    .container footer .col-md-12 .row h4 {
+        font-size: 1rem;
+    }
+
+}
